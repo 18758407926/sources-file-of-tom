@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <title>Gomag</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body id="top">
+
+    <!-- Top Background Image Wrapper -->
+    <div class="bgded" style="background-image:url('images/demo/backgrounds/background-01.jpg');">
+
+        <div class="wrapper row1">
+            <header id="header" class="hoc clear">
+
+                <div id="logo" class="fl_left">
+                    <img src="images/demo/07.jpg" alt="">
+                    <h1><a href="index.html">Lucas</a></h1>
+                </div>
+                <nav id="mainav" class="fl_right">
+                    <ul class="clear">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a class="drop" href="aboutus.html">About us</a></li>
+                        <li><a class="drop" href="careers.html">Careers</a></li>
+                        <li><a href="orderonline.php">Order online</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="create.php">Register</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+        </div>
+
+        <div class="clear"></div>
+        </main>
+    </div>
+
+    <div class="clear"></div>
+    </article>
+    </div>
+    <div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/background-03.jpg');">
+        <section class="hoc container clear">
+            <div class="one_half first">
+                <h6 class="heading">Join our team</h6>
+                <p>We are expanding our branches and need experienced baker regularly. Send us your detail with the form
+                    below
+                    and we will be in contact shortly</p>
+                <footer><a class="btn" href="#">Click here to view more</a></footer>
+            </div>
+            <div class="one_half"><img src="images/demo/04.jpg" alt=""></div>
+            <div class="clear"></div>
+        </section>
+    </div>
+    <div id="three-column" class="container">
+
+        <div class="title">
+            <h2>Fill out the form below and upload your cover letter and resume</h2>
+            <form action="upload_file.php" method="post" enctype="multipart/form-data">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br />
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" name="email"><br />
+                <textarea id="w3review" name="w3review" rows="4" cols="50">
+                    Write about yourself in this field...
+                    </textarea><br />
+                <label for="file">Cover Letter</label>
+                <input type="file" name="myfile[]" id="file"><br />
+                <label for="file">Resume</label>
+                <input type="file" name="myfile[]" id="file2"><br />
+                <input type="submit" name="submit" value="Submit"><br />
+            </form>
+
+        </div>
+        <div class="copyright_section">
+            <div class="container">
+                <p class="copyright_text">20IT2 Design by <a href="https://html.design">Jiang Yiyi(Tom)</a></p>
+            </div>
+        </div>
+        <!-- JAVASCRIPTS -->
+        <script src="layout/scripts/jquery.min.js"></script>
+        <script src="layout/scripts/jquery.backtotop.js"></script>
+        <script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+
+</html>
